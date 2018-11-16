@@ -1,28 +1,28 @@
 {
+    "__schema_version": 1,
     "page_assets": {
         "main": {
-        }
+        },
         "pgM_News": {
 
-        }
+        },
         "pgM_Episodios": {
 
-        }
+        },
         "pgEp":{
 
-        }
+        },
         "pgM_Rotas": {
 
-        }
+        },
         "pgRota": {
 
-        }
+        },
         "pgPopup_Uber": {
 
-        }
+        },
         "pgPopup_firsttime": {
-            
+
         }
     }
     }
-}
