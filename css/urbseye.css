@@ -1,11 +1,9 @@
 * {
 	font-family: 'Ubuntu', sans-serif;
 }
-
 #fixed-top-bar {
 	background-color:#FFFFFF;
 }
-
 body {
 	background-color:#CF4141;
 	overflow: hidden;
@@ -46,31 +44,31 @@ body {
 .font-red {
 	color:#CF4141;
 }
-
 .hidden {
 	display:none;
 }
-
 .z-49 {
 	z-index: 49;
 }
 .z-50 {
 	z-index: 50;
 }
-
 .p-fixed {
 	position:fixed;
 }
 .p-absolute {
 	position:absolute;
 }
+.pointer {
+    cursor: pointer;
+}
+
 
 /* This is the menu button, animated */
 .container {
     display: inline-block;
     cursor: pointer;
 }
-
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -78,18 +76,15 @@ body {
     margin: 6px 0;
     transition: 0.4s;
 }
-
 /* Rotate first bar */
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
 }
-
 /* Fade out the second bar */
 .change .bar2 {
     opacity: 0;
 }
-
 /* Rotate last bar */
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
