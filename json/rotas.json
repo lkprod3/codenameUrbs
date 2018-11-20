@@ -1,0 +1,19 @@
+[
+    {
+        "id_rota":1,
+        "locais": [
+            {
+                "id": 1,
+                "nome": "Edifício Sampaio Moreira",
+                "end": "R. Líbero Badaró, 340<br>Centro, São Paulo - SP<br>01002-010",
+                "desc": "Inaugurado em 1924; na época de sua construção, o prédio chamou muita atenção por sua construção primorosa e detalhada.<br>Representou uma grande revolução arquitetônica para a cidade de São Paulo por ter sido o primeiro edifício alto a ser construído com concreto armado, além de ter sido o pioneiro dos arranha-céus de São Paulo, marcando a paisagem da região central da cidade. Outro destaque do Sampaio Moreira foi a liberação do uso de sua cobertura.",
+                "img":""
+            },
+            {
+                
+
+            }
+
+        ]
+    }
+]
