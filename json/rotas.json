@@ -1,19 +1,65 @@
 [
     {
         "id_rota":1,
-        "locais": [
+        "nome_rota": "Arquitetura",
+        "locais_rota": [
             {
-                "id": 1,
+                "id":1,
+                "nome":"Pateo do Collegio",
+                "end": "Pç. Pateo do Collegio, 2<br>Centro, São Paulo - SP<br>01016-040",
+                "desc":"O Pateo do Collegio é um sítio arqueológico, onde foi levantada a primeira construção da atual cidade de São Paulo, quando o padre Manuel da Nóbrega e o então noviço José de Anchieta, e outros padres jesuítas a pedido de Portugal e da Companhia de Jesus, estabeleceram um núcleo para fins de catequização de indígenas no Planalto.",
+                "img":"http://www.saopaulo.sp.gov.br/wp-content/uploads/2016/12/pateo-colegio.jpg"
+            },
+            {
+                "id":2,
+                "nome":"Edifício Guinle",
+                "end": "R. Direita, 49<br>Sé, São Paulo - SP<br>01013-020",
+                "desc":"O Edifício Guinle -- uma construção em estilo art nouveau com sete andares -- é considerado o primeiro arranha-céu da cidade de São Paulo, pois rompia com a regularidade da cidade. Localizado na Rua Direita, no centro da capital paulista, o prédio é tombado pelo Conpresp (Conselho Municipal de Preservação do Patrimônio Histórico, Cultural e Ambiental de São Paulo).",
+                "img":"https://spcity.com.br/wp-content/uploads/2017/10/1-casas-bacanas.jpg"
+            },
+            {
+                "id": 3,
                 "nome": "Edifício Sampaio Moreira",
                 "end": "R. Líbero Badaró, 340<br>Centro, São Paulo - SP<br>01002-010",
                 "desc": "Inaugurado em 1924; na época de sua construção, o prédio chamou muita atenção por sua construção primorosa e detalhada.<br>Representou uma grande revolução arquitetônica para a cidade de São Paulo por ter sido o primeiro edifício alto a ser construído com concreto armado, além de ter sido o pioneiro dos arranha-céus de São Paulo, marcando a paisagem da região central da cidade. Outro destaque do Sampaio Moreira foi a liberação do uso de sua cobertura.",
-                "img":""
+                "img":"https://upload.wikimedia.org/wikipedia/commons/2/27/Edifício_Sampaio_Moreira.jpg"
             },
             {
-                
-
+                "id": 4,
+                "nome": "Edifício Martinelli",
+                "end": "R. São Bento, 405<br>Centro, São Paulo - SP<br>01011-100",
+                "desc ": "O Edifício Martinelli é um prédio localizado no Centro do município de São Paulo, Brasil. Situa-se no triângulo formado pela Rua São Bento, avenida São João e Rua Líbero Badaró, no centro da capital paulista. Devido sua altura, o local pode ser considerado um mirante, onde em suas redondezas, é possível observar pontos turísticos de São Paulo, com por exemplo o Vale do Anhangabaú e a Catedral da Sé.<br>Foi o segundo arranha-céu do Brasil e da América Latina, tendo sido ultrapassado pelo Edifício Joseph Gire, ou Edifício A Noite, no Rio de Janeiro, que apesar de ter iniciado sua construção apenas em 1927, foi inaugurado apenas dois anos depois, em 1929.",
+                "img": "https://www.galeriadaarquitetura.com.br/Img/projeto/702x415/898/edificiomartinelli404.jpg"
+            },
+            {
+                "id": 5,
+                "nome": "Edifício Altino Arantes",
+                "end": "",
+                "desc": "Edifício Altino Arantes (Banespão) é um dos prédios mais emblemáticos da capital paulista, sendo o terceiro arranha-céu mais alto da cidade e o sétimo mais alto do Brasil.<br>Construído a partir de 1939 pelo interventor federal Ademar Pereira de Barros para sediar o Banco do Estado de São Paulo (que ocupou o prédio até 2001) e inaugurado oito anos depois, em 27 de junho de 1947, também por Ademar de Barros, quando ele já era governador de São Paulo, foi durante mais de uma década o mais alto da cidade, até ser superado pelo Mirante do Vale, em 1960.",
+                "img": "https://abrilvejasp.files.wordpress.com/2018/01/edificiobanespalm65.jpg"
+            },
+            {
+                "id": 6,
+                "nome": "Mirante do Vale",
+                "end": "Av. Prestes Maia, 241<br>Centro, São Paulo - SP<br>01031-020",
+                "desc": "O Mirante do Vale (cujo nome oficial é Condomínio Edifício Mirante do Vale) é um arranha-céu localizado na cidade de São Paulo, no Brasil. Por 48 anos, foi o maior edifício do país, além de ter sido o 18º arranha-céu mais alto da América do Sul, com 170 metros de altura.<br>Projetado pelo arquiteto Waldomiro Zarzur, sua construção começou em 1960 e foi inaugurado em 1966. Após a sua conclusão, manteve o título de maior arranha-céu do Brasil até ser superado pelo Millennium Palace, de Balneário Camboriú, inaugurado em 10 de agosto de 2014.",
+                "img": "http://www.saopauloinfoco.com.br/wp-content/uploads/2015/01/Viaduto-Santa-Ifigênia-e-o-Mirante-do-Vale1.jpg"
             }
-
+        ],
+        "alimentacao":  true,
+        "locais_food": [
+            {
+                "id_f": 1,
+                "nome_f": "Bovinu's Anhangabaú",
+                "end": "Av. São João, 119<br>Centro, São Paulo - SP<br>01310-000",
+                "proxmt": "5"
+            },
+            {
+                "id_f"   : "",
+                "nome_f":"",
+                "end":"",
+                "proxmt":""
+            }
         ]
     }
 ]
