@@ -33,6 +33,13 @@ body {
 	background-color:white;
 }
 
+.blank-space-1 {
+    background-color: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
 
 /* General, non-specific classes */
 .font-white {
@@ -53,6 +60,9 @@ body {
 .z-50 {
 	z-index: 50;
 }
+.w-98 {
+    width: 98%;
+}
 .p-fixed {
 	position:fixed;
 }
@@ -61,6 +71,29 @@ body {
 }
 .pointer {
     cursor: pointer;
+}
+.card {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow:  0px 2px 10px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.4);
+    transition:0.2s;
+}
+.card:hover {
+    box-shadow:  0px 4px 10px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 4px 10px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 4px 10px 3px rgba(0,0,0,0.6);
+}
+.text-decor-none {
+    color: inherit;
+    text-decoration: none;
+}
+.text-decor-none:hover {
+    color: inherit;
+    text-decoration: none;
 }
 
 

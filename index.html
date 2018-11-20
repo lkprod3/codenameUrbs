@@ -18,7 +18,7 @@
   <script src="js/urbs.js"></script>
   <title>Contrafluxo</title>
   
-  <div id="splash-screen">
+  <div id="splash-screen" class="page hidden">
   	<img src="assets/logo_main.png" class="logo_cf z-49 p-fixed" id="logo-splash">	
   	<img src="assets/transitions/splash.png" class="w-100 z-50 p-absolute splash-transition1" id="seta-splash">
   </div>
@@ -33,8 +33,19 @@
 	<!-- -->
   </div>
 
-<div id="noticias">
-  
+<div id="noticias" class="page">
+  <span class="blank-space-1">&nbsp;</span>
+  <!-- <script id="noticias-template" type="x-handlebars-template">
+  {{#each this}} -->
+    <a href="{{pointer}}" class="text-decor-none"><div class="card mx-auto mb-5 w-98" data-index="{{id}}">
+      <img class="card-img-top" src="{{imgcard}}" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text text-center font-weight-bold">{{titulo}}</p>
+    </div></a>
+    <!-- {{/each}}
+  </script> -->
+  </div>
+
 </div>
 
 

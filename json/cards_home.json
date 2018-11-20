@@ -2,13 +2,13 @@
     {
         "id": 1,
         "titulo":"A Verticalização de SP",
-        "imgcard": "",
+        "imgcard": "assets/imgs/teaser_card.png",
         "pointer": "#id_ep-1"
     },
     {
         "id": 2,
         "titulo": "Contrafluxo: Teaser",
-        "imgcard": "",
+        "imgcard": "assets/imgs/teaser_card.png",
         "pointer": "https://www.youtube.com/watch?v=98c3hym3KD8"
     }
 ]
