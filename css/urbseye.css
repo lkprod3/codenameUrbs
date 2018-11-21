@@ -6,6 +6,8 @@
 }
 body {
 	background-color:#CF4141;
+}
+#splash-screen {
 	overflow: hidden;
 	overflow-y: hidden;
 	overflow-x: hidden;
