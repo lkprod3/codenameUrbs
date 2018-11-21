@@ -148,7 +148,15 @@ $(function json_cards() {
          var card_home = '<a href="' + f.pointer + '" class="text-decor-none"><div class="card mx-auto mb-5 w-98" data-index="' + f.id + '"><img class="card-img-top" src="' + f.imgcard + '" alt="Card image cap"><div class="card-body"><p class="card-text text-center font-weight-bold">' + f.titulo + '</p></div></a>'
           $(card_home).appendTo("#noticias");
     });
-
   });
+});
 
+$(function json_eps() {
+  var episodios = [];
+  $.getJSON('json/episodios.json', function(data) {
+      $.each(data, function(e, g) {
+         var ep_thumb = '<a href="#' + g.href + '_thumb"><div class="container-fluid" data-index="' + g.id_ep + '"><img class="img-fluid" src="' + g.thumbnail + '" alt="' + g.header1 + '"></div></a>'
+          $(ep_thumb).appendTo("#episodios");
+    });
+  });
 });

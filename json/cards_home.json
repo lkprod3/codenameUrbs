@@ -3,12 +3,18 @@
         "id": 1,
         "titulo":"A Verticalização de SP",
         "imgcard": "assets/imgs/teaser_card.png",
-        "pointer": "#id_ep-1"
+        "pointer": "#s01e01"
     },
     {
         "id": 2,
         "titulo": "Contrafluxo: Teaser",
         "imgcard": "assets/imgs/teaser_card.png",
         "pointer": "https://www.youtube.com/watch?v=98c3hym3KD8"
+    },
+    {
+        "id": 3,
+        "titulo": "Nova rota: Arquitetura",
+        "imgcard": "assets/imgs/teaser_card.png",
+        "pointer": "#rota_arq"
     }
 ]
