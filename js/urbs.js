@@ -155,8 +155,27 @@ $(function json_eps() {
   var episodios = [];
   $.getJSON('json/episodios.json', function(data) {
       $.each(data, function(e, g) {
-         var ep_thumb = '<a href="#' + g.href + '_thumb"><div class="container-fluid" data-index="' + g.id_ep + '"><img class="img-fluid" src="' + g.thumbnail + '" alt="' + g.header1 + '"></div></a>'
+         var ep_thumb = '<a href="#' + g.href + '" class="text-decor-none mx-3"><div class="container-fluid bgR2 m-0 p-0 cW" data-index="' + g.id_ep + '"><img class="img-fluid" src="' + g.thumbnail + '" alt="' + g.header1 + '" class="img-fluid w-100"><p class="text-center py-2">Episódio ' + g.id_ep + '<br>' + g.header1 + '</div></a>'
           $(ep_thumb).appendTo("#episodios");
     });
   });
 });
+
+if ( $(window).width() > 70) {   
+  var mywindow = $(window);
+  var mypos = mywindow.scrollTop();
+  var up = false;
+  var newscroll;
+  mywindow.scroll(function () {
+      newscroll = mywindow.scrollTop();
+      if (newscroll > mypos && !up) {
+          $('.slidd').stop().slideUp(400);
+          up = !up;
+          console.log(up);
+      } else if(newscroll < mypos && up) {
+          $('.slidd').stop().slideDown(300);
+          up = !up;
+      }
+      mypos = newscroll;
+  });
+  }

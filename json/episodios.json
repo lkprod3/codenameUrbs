@@ -7,7 +7,7 @@
         "vidembed": "",
         "content": "No primeiro episódio de nossa série abordamos o início do processo de verticalização de São Paulo!<br>A rota tem início no berço de São Paulo, o Pateo do Collegio. Depois, passando por alguns dos primeiros edifícios que permitiram que a metrópole crescesse não só para os lados, mas também em direção ao céu.",
         "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "",
+        "thumbnail": "assets/thumbnails/Arq.gif",
         "href":"s01e01"
     },
     {
@@ -18,7 +18,7 @@
         "vidembed": "",
         "content": "Nosso segundo episódio traz Marcos e Símbolos desconhecidos da cidade de São Paulo!<br>Nossa rota passa por pontos como os depósitos noturnos e o marco da enchente, mostrando alguns dos locais desconhecidos porem com histórias por trás.",
         "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "",
+        "thumbnail": "assets/thumbnails/Simb&M.gif",
         "href":"s01e02"
     },
     {
@@ -29,7 +29,7 @@
         "vidembed": "",
         "content": "Nosso terceiro episódio da primeira temporada nos leva a pontos ativos na cidade de São Paulo  -- mais especificamente durante o período noturno, trazendo entretenimento e diversas opções com a gastronomia da cidade.",
         "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "",
+        "thumbnail": "assets/thumbnails/VidaNot.gif",
         "href":"s01e03"
     },
     {
@@ -40,7 +40,7 @@
         "vidembed": "",
         "content": "O episódio 3 tem como foco a arte de rua da cidade, mostrando vários pontos que transbordam arte para conhecer e admirar.",
         "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "",
+        "thumbnail": "assets/thumbnails/ArtUrbs.gif",
         "href":"s01e04"
     },
     {
@@ -51,7 +51,7 @@
         "vidembed": "",
         "content": "O quarto episódio nos leva a diversos museus, desde os mais conhecidos como o MASP até alguns mais experimentais como o museu do óculos",
         "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "",
+        "thumbnail": "assets/thumbnails/Museu.gif",
         "href":"s01e05"
     }
 ]
