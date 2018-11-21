@@ -141,11 +141,8 @@ function myFunction(x) {
 
 // }
 
-$(function pastel() {
-
-
+$(function json_cards() {
   var cards_home = [];
-
   $.getJSON('json/cards_home.json', function(data) {
       $.each(data, function(i, f) {
          var card_home = '<a href="' + f.pointer + '" class="text-decor-none"><div class="card mx-auto mb-5 w-98" data-index="' + f.id + '"><img class="card-img-top" src="' + f.imgcard + '" alt="Card image cap"><div class="card-body"><p class="card-text text-center font-weight-bold">' + f.titulo + '</p></div></a>'
