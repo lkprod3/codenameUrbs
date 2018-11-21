@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.contrafluxo.app"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+  <icon src="icon.png" />
+<!-- versionCode is optional and Android only -->
+
+  <name>Contrafluxo</name>
+
+  <description>O aplicativo oficial da série Contrafluxo
+  </description>
+
+  <author href="http://github.com/lkprod3" email="lima.gabrielkp@gmail.com">
+      Gabriel Crisostomo
+  </author>
+
+</widget>
