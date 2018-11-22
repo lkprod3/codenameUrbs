@@ -6,7 +6,9 @@
     version     = "1.0.0" >
 
   <icon src="icon.png" />
+    <splash src="splash.png" />
 <!-- versionCode is optional and Android only -->
+<plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 
   <name>Contrafluxo</name>
 
