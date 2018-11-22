@@ -53,12 +53,15 @@ function menutoggle() {
     $('#menu').hide();
     $("#episodios").show("slide", { direction: "left" }, 200);
     }
-    
 
   function gotoHome() {
     $('#menu').hide();
     $("#noticias").show("slide", { direction: "left" }, 200);
   }
+
+  $(".card_2").click( function asdf() {
+    var onInApp = window.open('https://www.youtube.com/watch?v=98c3hym3KD8', '_blank', 'location=no,hidden=yes,closebuttoncaption=Done,toolbar=no');
+  })
 
 $(".card_1").click(function() {
     $("#noticias").hide("slide", { direction: "right" }, 200);
