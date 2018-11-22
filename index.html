@@ -4,10 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <!-- Ubuntu font -->
@@ -18,14 +22,14 @@
   <script src="js/urbs.js"></script>
   <title>Contrafluxo</title>
   
-  <div id="splash-screen" class="page bgR hidden">
+  <div id="splash-screen" class="page bgR">
   	<img src="assets/logo_main.png" class="logo_cf z-49 p-fixed" id="logo-splash">	
   	<img src="assets/transitions/splash.png" class="w-100 z-50 p-absolute splash-transition1" id="seta-splash">
   </div>
 
   <div id="fixed-top-bar" class="fixed-top py-2 slidd">
   <!-- This is the menu button, animated -->
-  <div class="col-2 ml-1 pointer" onclick="myFunction(this)">
+  <div class="col-2 ml-1 pointer" onclick="menutoggle();myFunction();">
   	<div class="bar1"></div>
   	<div class="bar2"></div>
   	<div class="bar3"></div>
@@ -33,21 +37,21 @@
 	<!-- -->
   </div>
 
-<div id="noticias" class="page bgR hidden" onload="json_cards()">
+<div id="noticias" class="page bgR" onload="json_cards()">
   <span class="blank-space-1">&nbsp;</span>
   <!-- Cards aqui -->
   </div>
 </div>
 
-  <div id="menu" class="page bgG hidden">
+  <div id="menu" class="page bgG">
       <span class="blank-space-1"></span>
     <div class="table menu1 text-center">
       <table class="mx-auto">
-        <tr><td>Home</td></tr>
-        <tr><td>Rotas</td></tr>
-        <tr><td>Episódios</td></tr>
-        <tr><td>Sobre</td></tr>
-        <tr><td>Configurações</td></tr>
+        <tr><td onclick="gotoHome()">Home</td></tr>
+        <tr><td onclick="gotoRotas()">Rotas</td></tr>
+        <tr><td onclick="gotoEpisodios()">Episódios</td></tr>
+        <tr><td onclick="gotoSobre()">Sobre</td></tr>
+        <tr><td onclick="gotoSettings()">Configurações</td></tr>
       </table>
         </div>
 </div>
@@ -61,14 +65,7 @@
 
 
 
-  <div id="full" class="hidden">
-  	<h3 class="font-white">asdf</h3>
-
-
-
-
-
-
+  <div id="full" class="">
   </div>
   </body>
 </html>
