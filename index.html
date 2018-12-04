@@ -21,14 +21,14 @@
   <script src="js/urbs.js"></script>
   <title>Contrafluxo</title>
   
-  <div id="splash-screen" class="page bgR">
+  <div id="splash-screen" class="bgR">
   	<img src="assets/logo_main.png" class="logo_cf z-49 p-fixed" id="logo-splash">	
   	<img src="assets/transitions/splash.png" class="w-100 z-50 p-absolute splash-transition1" id="seta-splash">
   </div>
 
   <div id="fixed-top-bar" class="fixed-top py-2 slidd">
   <!-- This is the menu button, animated -->
-  <div class="col-2 ml-1 pointer" onclick="menutoggle();myFunction();">
+  <div id="changer" class="col-2 ml-1 pointer x_button" onclick="menutoggle();myFunction()">
   	<div class="bar1"></div>
   	<div class="bar2"></div>
   	<div class="bar3"></div>
@@ -38,6 +38,7 @@
 
 <div id="noticias" class="page bgR" onload="json_cards()">
   <span class="blank-space-1">&nbsp;</span>
+  <div id="noticia_cards"> </div>
   <!-- Cards aqui -->
   </div>
 </div>
@@ -46,11 +47,11 @@
       <span class="blank-space-1"></span>
     <div class="table menu1 text-center">
       <table class="mx-auto">
-        <tr><td onclick="gotoHome()">Home</td></tr>
-        <tr><td onclick="gotoRotas()">Rotas</td></tr>
-        <tr><td onclick="gotoEpisodios()">Episódios</td></tr>
-        <tr><td onclick="gotoSobre()">Sobre</td></tr>
-        <tr><td onclick="gotoSettings()">Configurações</td></tr>
+        <tr><td onclick="gotoHome();myFunction()">Home</td></tr>
+        <tr><td onclick="gotoRotas();myFunction()">Rotas</td></tr>
+        <tr><td onclick="gotoEpisodios();myFunction()">Episódios</td></tr>
+        <tr><td onclick="gotoSobre();myFunction()">Sobre</td></tr>
+        <tr><td onclick="gotoSettings();myFunction()">Configurações</td></tr>
       </table>
         </div>
 </div>
@@ -60,8 +61,103 @@
 </div>
 </div>
 
+<div id="s01e01" class="page bgR" onload="json_desc_ep()"> 
+    <div class="container-fluid bgR2 mt-3 mb-3 p-0  pb-1 cW">
+        <iframe  height='1280' w='720' src='https://www.youtube.com/embed/I9g6WvFS17A'  class='img-fluid w-100 max-h-100'></iframe>
+      <p class="text-center pt-2">Episódio 1<br>Arquitetura</div>
+        <div class="container"><p class="font-white m-2">No primeiro episódio de nossa série abordamos o início do processo de verticalização de São Paulo!<br>A rota tem início no berço de São Paulo, o Pateo do Collegio.<br>Depois, passando por alguns dos primeiros edifícios que permitiram que a metrópole crescesse não só para os lados, mas também em direção ao céu.</p></div>
+        <footer class="container text-center mt-5"><p>Assista já ao episódio e depois navegue pela rota apresentada!</p></footer>
 </div>
 
+<div id="s01e02" class="page bgR"> 
+  <div class="container-fluid bgR2 mt-3 mb-3 p-0  pb-1 cW">
+      <img class="img-fluid" src="assets/thumbnails/Ep_2.jpg" alt="Símbolos & Marcos" class="img-fluid w-100">
+    <p class="text-center pt-2">Episódio 2<br>Símbolos & Marcos</div>
+      <div class="container"><p class="font-white m-2">Nosso segundo episódio traz Marcos e Símbolos desconhecidos da cidade de São Paulo!<br>Nossa rota passa por pontos como os depósitos noturnos e o marco da enchente, mostrando alguns dos locais desconhecidos porem com histórias por trás.</p></div>
+      <footer class="container text-center mt-5"><p>Aguarde o lançamento do episódio!</p></footer>
+</div>
+
+<div id="s01e03" class="page bgR"> 
+    <div class="container-fluid bgR2 mt-3 mb-3 p-0  pb-1 cW">
+        <img class="img-fluid" src="assets/thumbnails/Ep_3.jpg" alt="Vida Noturna" class="img-fluid w-100">
+      <p class="text-center pt-2">Episódio 3<br>Vida Noturna</div>
+        <div class="container"><p class="font-white m-2">Nosso terceiro episódio da primeira temporada nos leva a pontos ativos na cidade de São Paulo  -- mais especificamente durante o período noturno, trazendo entretenimento e diversas opções com a gastronomia da cidade.</p></div>
+        <footer class="container text-center mt-5"><p>Aguarde o lançamento do episódio!</p></footer>
+</div>
+
+<div id="s01e04" class="page bgR"> 
+    <div class="container-fluid bgR2 mt-3 mb-3 p-0  pb-1 cW">
+        <img class="img-fluid" src="assets/thumbnails/Ep_4.jpg" alt="Vida Noturna" class="img-fluid w-100">
+      <p class="text-center pt-2">Episódio 4<br>Arte Urbana</div>
+        <div class="container"><p class="font-white m-2">O episódio 4 tem como foco a arte de rua da cidade, mostrando vários pontos que transbordam arte para conhecer e admirar.</p></div>
+        <footer class="container text-center mt-5"><p>Aguarde o lançamento do episódio!</p></footer>
+</div>
+
+<div id="s01e05" class="page bgR">
+    <div class="container-fluid bgR2 mt-3 mb-3 p-0  pb-1 cW">
+        <img class="img-fluid" src="assets/thumbnails/Ep_5.jpg" alt="Vida Noturna" class="img-fluid w-100">
+      <p class="text-center pt-2">Episódio 5<br>Museus</div>
+        <div class="container"><p class="font-white m-2">O quarto episódio nos leva a diversos museus, desde os mais conhecidos como o MASP até alguns mais experimentais como o museu do óculos.</p></div>
+        <footer class="container text-center mt-5"><p>Aguarde o lançamento do episódio!</p></footer>
+</div>
+
+</div>
+
+<div id="sobre" class="page bgR">
+  <div class="container-fluid bgR p-0 m-0">
+    <img src="assets/imgs/teaser_card.png" alt="Contrafluxo" class="img-fluid w-100 p-0 m-0 mt-3">
+    <div class="container m-3 pl-0 ml-0">
+      <p class="mt-1 text-center"><span class="font-weight-bold ml-0 pl-">A série Contrafluxo consiste de um formato onde exploramos locais menos conhecidos da cidade, mostrando lugares e fatos interessantes que o público geral, de turistas ou similares, geralmente não estão familiarizados.
+        Neste episódio, o primeiro da temporada, exploramos a verticalização e a arquitetura da cidade de São Paulo, visitando locais que as pessoas podem até conhecer, mas não sabem da história por trás.</span>
+      <br><br><br><span class="clausula font-white text-center">CLÁUSULA DE RESERVA (Lei 9.610/98 -LEI DE DIREITOS AUTORAIS): Este site e/ou aplicativo foi publicado e é mantido pelos discentes do 4º semestre, do Curso de Graduação em Design Digital, da Universidade Anhembi Morumbi, visando a atender às exigências da disciplina PROJETO INTERDISCIPLINAR: AUDIOVISUAL. Trata-se de uma publicação temporária para propósitos estritamente acadêmicos e sem fins lucrativos. Em atendimento às exigências da Lei 9.610/98, do parágrafo 4°, do Artigo 184, do Código Penal, os discentes responsáveis por esta publicação colocam-se à disposição, por intermédio do e-mail lima.gabrielkp@gmail.com, para dirimir quaisquer dúvidas referentes à eventual violação de direitos autorais, comprometendo-se desde já, a retirar do ar, qualquer texto, som ou imagem pertencente a autor ou titular que se sinta direta ou indiretamente prejudicado.</span></p>
+
+    </div>
+  </div>
+</div>
+
+<div id="rota_01" class="page bgR" onload="json_rotaArq()">
+    <span class="blank-space-1"></span>
+<div class="container bgW mt-5 pt-3 pb-1"><h4 class="font-black text-center">A Verticalização de São Paulo</h4></div>
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-2 bgW no-gutters meio3 max-h-100"></div>
+  <div class="col-8 mt-4">
+    <div id="ed_1" class="ml-2 my-5"><h4 onclick="ed1_click()">Pateo do Collegio</h4>
+    <p class="toggle_desc_1">O Pateo do Collegio é um sítio arqueológico, onde foi levantada a primeira construção da atual cidade de São Paulo, quando o padre Manuel da Nóbrega e o então noviço José de Anchieta, e outros padres jesuítas a pedido de Portugal e da Companhia de Jesus, estabeleceram um núcleo para fins de catequização de indígenas no Planalto.</p></div>
+    <div id="ed_2" class="ml-2 my-5">
+      <h4 onclick="ed2_click()">Edifício Guinle</h4>
+        <p class="toggle_desc_2">O Edifício Guinle -- uma construção em estilo art nouveau com sete andares -- é considerado o primeiro arranha-céu da cidade de São Paulo, pois rompia com a regularidade da cidade. Localizado na Rua Direita, no centro da capital paulista, o prédio é tombado pelo Conpresp (Conselho Municipal de Preservação do Patrimônio Histórico, Cultural e Ambiental de São Paulo).</p></div>
+        <div id="ed_3"  class="ml-2 my-5">
+          <h4 onclick="ed3_click()">Edifício Sampaio Moreira</h4>
+          <p class="toggle_desc_3">Inaugurado em 1924; na época de sua construção, o prédio chamou muita atenção por sua construção primorosa e detalhada.<br>Representou uma grande revolução arquitetônica para a cidade de São Paulo por ter sido o primeiro edifício alto a ser construído com concreto armado, além de ter sido o pioneiro dos arranha-céus de São Paulo, marcando a paisagem da região central da cidade. Outro destaque do Sampaio Moreira foi a liberação do uso de sua cobertura.</p>
+        </div>
+        <div id="ed_4"class="ml-2 my-5">
+          <h4  onclick="ed4_click()">Edifício Martinelli</h4>
+          <p class="toggle_desc_4">O Edifício Martinelli é um prédio localizado no Centro do município de São Paulo, Brasil. Situa-se no triângulo formado pela Rua São Bento, avenida São João e Rua Líbero Badaró, no centro da capital paulista. Devido sua altura, o local pode ser considerado um mirante, onde em suas redondezas, é possível observar pontos turísticos de São Paulo, com por exemplo o Vale do Anhangabaú e a Catedral da Sé.<br>Foi o segundo arranha-céu do Brasil e da América Latina, tendo sido ultrapassado pelo Edifício Joseph Gire, ou Edifício A Noite, no Rio de Janeiro, que apesar de ter iniciado sua construção apenas em 1927, foi inaugurado apenas dois anos depois, em 1929.</p>
+        </div>
+        <div id="ed_5" class="ml-2 my-5">
+          <h4 onclick="ed5_click()">Edifício Altino Arantes</h4>
+          <p class="toggle_desc_5">Edifício Altino Arantes (Banespão) é um dos prédios mais emblemáticos da capital paulista, sendo o terceiro arranha-céu mais alto da cidade e o sétimo mais alto do Brasil.<br>Construído a partir de 1939 pelo interventor federal Ademar Pereira de Barros para sediar o Banco do Estado de São Paulo (que ocupou o prédio até 2001) e inaugurado oito anos depois, em 27 de junho de 1947, também por Ademar de Barros, quando ele já era governador de São Paulo, foi durante mais de uma década o mais alto da cidade, até ser superado pelo Mirante do Vale, em 1960.</p>
+        </div>
+        <div id="ed_6" class="ml-2 my-5">
+          <h4 onclick="ed6_click()">Mirante do Vale</h4>
+          <p class="toggle_desc_6">O Mirante do Vale (cujo nome oficial é Condomínio Edifício Mirante do Vale) é um arranha-céu localizado na cidade de São Paulo, no Brasil. Por 48 anos, foi o maior edifício do país, além de ter sido o 18º arranha-céu mais alto da América do Sul, com 170 metros de altura.<br>Projetado pelo arquiteto Waldomiro Zarzur, sua construção começou em 1960 e foi inaugurado em 1966. Após a sua conclusão, manteve o título de maior arranha-céu do Brasil até ser superado pelo Millennium Palace, de Balneário Camboriú, inaugurado em 10 de agosto de 2014</p>
+        </div>
+        <div>
+        <button type="button" class="btn btn-light btn-lg btn-block mb-5">Iniciar Rota</button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+</div>
+
+
+</div>
 
 
   <div id="full" class="">

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "titulo":"A Verticalização de SP",
-        "imgcard": "assets/thumbnails/Thumb3.jpg",
+        "imgcard": "assets/thumbnails/Ep_1.jpg",
         "pointer": "#s01e01"
     },
     {
@@ -14,7 +14,7 @@
     {
         "id": 3,
         "titulo": "Nova rota: Arquitetura",
-        "imgcard": "assets/thumbnails/Arq.gif",
+        "imgcard": "assets/thumbnails/Thumb3.jpg",
         "pointer": "#rota_arq"
     }
 ]

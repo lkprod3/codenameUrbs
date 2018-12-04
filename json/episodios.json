@@ -4,10 +4,10 @@
         "id_rota": 1,
         "header1": "Arquitetura",
         "header2": "A Verticalização de SP",
-        "vidembed": null,
-        "content": "No primeiro episódio de nossa série abordamos o início do processo de verticalização de São Paulo!<br>A rota tem início no berço de São Paulo, o Pateo do Collegio. Depois, passando por alguns dos primeiros edifícios que permitiram que a metrópole crescesse não só para os lados, mas também em direção ao céu.",
+        "vidembed": "<iframe  height='1280' w='720' src='https://www.youtube.com/embed/I9g6WvFS17A'  class='img-fluid w-100 max-h-100'></iframe>",
+        "content": "No primeiro episódio de nossa série abordamos o início do processo de verticalização de São Paulo!<br>A rota tem início no berço de São Paulo, o Pateo do Collegio.<br>Depois, passando por alguns dos primeiros edifícios que permitiram que a metrópole crescesse não só para os lados, mas também em direção ao céu.",
         "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "assets/thumbnails/Arq.gif",
+        "thumbnail": "assets/thumbnails/Ep_1.jpg",
         "href":"s01e01"
     },
     {
@@ -15,10 +15,10 @@
         "id_rota": 2,
         "header1": "Símbolos & Marcos",
         "header2": "Os Símbolos da Cidade",
-        "vidembed": null,
+        "vidembed": "",
         "content": "Nosso segundo episódio traz Marcos e Símbolos desconhecidos da cidade de São Paulo!<br>Nossa rota passa por pontos como os depósitos noturnos e o marco da enchente, mostrando alguns dos locais desconhecidos porem com histórias por trás.",
-        "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "assets/thumbnails/Simb&M.gif",
+        "footer": "Aguarde o lançamento do episódio!",
+        "thumbnail": "assets/thumbnails/Ep_2.jpg",
         "href":"s01e02"
     },
     {
@@ -26,10 +26,10 @@
         "id_rota": 3,
         "header1": "Vida Noturna",
         "header2": "Uma Cidade Que Não Dorme",
-        "vidembed": null,
+        "vidembed": "",
         "content": "Nosso terceiro episódio da primeira temporada nos leva a pontos ativos na cidade de São Paulo  -- mais especificamente durante o período noturno, trazendo entretenimento e diversas opções com a gastronomia da cidade.",
-        "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "assets/thumbnails/VidaNot.gif",
+        "footer": "Aguarde o lançamento do episódio!",
+        "thumbnail": "assets/thumbnails/Ep_3.jpg",
         "href":"s01e03"
     },
     {
@@ -37,10 +37,10 @@
         "id_rota": 4,
         "header1": "Arte Urbana",
         "header2": "A Esquecida Arte de Rua",
-        "vidembed": null,
-        "content": "O episódio 3 tem como foco a arte de rua da cidade, mostrando vários pontos que transbordam arte para conhecer e admirar.",
-        "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "assets/thumbnails/ArtUrbs.gif",
+        "vidembed": "",
+        "content": "O episódio 4 tem como foco a arte de rua da cidade, mostrando vários pontos que transbordam arte para conhecer e admirar.",
+        "footer": "Aguarde o lançamento do episódio!",
+        "thumbnail": "assets/thumbnails/Ep_4.jpg",
         "href":"s01e04"
     },
     {
@@ -48,10 +48,10 @@
         "id_rota": 5,
         "header1": "Museus",
         "header2": "Os Artefatos do Passado",
-        "vidembed": null,
-        "content": "O quarto episódio nos leva a diversos museus, desde os mais conhecidos como o MASP até alguns mais experimentais como o museu do óculos",
-        "footer": "Assista já ao episódio e depois navegue pela rota apresentada!",
-        "thumbnail": "assets/thumbnails/Museu.gif",
+        "vidembed": "",
+        "content": "O quarto episódio nos leva a diversos museus, desde os mais conhecidos como o MASP até alguns mais experimentais como o museu do óculos.",
+        "footer": "Aguarde o lançamento do episódio!",
+        "thumbnail": "assets/thumbnails/Ep_5.jpg",
         "href":"s01e05"
     }
 ]
