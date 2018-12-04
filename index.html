@@ -144,17 +144,87 @@
           <p class="toggle_desc_6">O Mirante do Vale (cujo nome oficial é Condomínio Edifício Mirante do Vale) é um arranha-céu localizado na cidade de São Paulo, no Brasil. Por 48 anos, foi o maior edifício do país, além de ter sido o 18º arranha-céu mais alto da América do Sul, com 170 metros de altura.<br>Projetado pelo arquiteto Waldomiro Zarzur, sua construção começou em 1960 e foi inaugurado em 1966. Após a sua conclusão, manteve o título de maior arranha-céu do Brasil até ser superado pelo Millennium Palace, de Balneário Camboriú, inaugurado em 10 de agosto de 2014</p>
         </div>
         <div>
-        <button type="button" class="btn btn-light btn-lg btn-block mb-5">Iniciar Rota</button>
+        <button type="button" class="btn btn-light btn-lg btn-block mb-5" onclick="rota_Arq()">Iniciar Rota</button>
       </div>
     </div>
 
+  </div>
+
+</div>
+
+<div id="rota_01_Ativa" class="page bgR" onload="json_rotaArq()">
+    <span class="blank-space-1"></span>
+<div class="container bgW mt-5 pt-3 pb-1"><h4 class="font-black text-center">A Verticalização de São Paulo</h4></div>
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-2 bgW no-gutters meio3 max-h-100"></div>
+  <div class="col-8 mt-4">
+    <div id="ed_1_Ac" class="ml-2 my-5"><h4 onclick="ed1_click()">Pateo do Collegio</h4>
+      <p class="font-italic">Pç. Pateo do Collegio, 2<br>Centro, São Paulo - SP<br>01016-040</p>
+    <p class="fixed_desc_1">O Pateo do Collegio é um sítio arqueológico, onde foi levantada a primeira construção da atual cidade de São Paulo, quando o padre Manuel da Nóbrega e o então noviço José de Anchieta, e outros padres jesuítas a pedido de Portugal e da Companhia de Jesus, estabeleceram um núcleo para fins de catequização de indígenas no Planalto.</p>
+  <img src="assets/rota/Collegio.jpg" alt="Patio do Collegio" class="shadowed rounded img-fluid w-100"></div>
+    <div id="ed_2_Ac" class="ml-2 my-5">
+      <h4>Edifício Guinle</h4>
+      <p class="font-italic">R. Direita, 49<br>Sé, São Paulo - SP<br>01013-020</p>
+        <p class="fixed_desc_2">O Edifício Guinle -- uma construção em estilo art nouveau com sete andares -- é considerado o primeiro arranha-céu da cidade de São Paulo, pois rompia com a regularidade da cidade. Localizado na Rua Direita, no centro da capital paulista, o prédio é tombado pelo Conpresp (Conselho Municipal de Preservação do Patrimônio Histórico, Cultural e Ambiental de São Paulo).</p>
+      <img src="assets/rota/Guinle.png" alt="Edifício Guinle" class="shadowed rounded img-fluid w-100"></div>
+        <div id="ed_3_Ac"  class="ml-2 my-5">
+          <h4>Edifício Sampaio Moreira</h4>
+          <p class="font-italic">R. Líbero Badaró, 340<br>Centro, São Paulo - SP<br>01002-010</p>
+          <p class="fixed_desc_3">Inaugurado em 1924; na época de sua construção, o prédio chamou muita atenção por sua construção primorosa e detalhada.<br>Representou uma grande revolução arquitetônica para a cidade de São Paulo por ter sido o primeiro edifício alto a ser construído com concreto armado, além de ter sido o pioneiro dos arranha-céus de São Paulo, marcando a paisagem da região central da cidade. Outro destaque do Sampaio Moreira foi a liberação do uso de sua cobertura.</p>
+          <img src="assets/rota/Sampaio.jpg" alt="Edifício Sampaio Moreira" class="shadowed rounded img-fluid w-100">
+        </div>
+        <div id="ed_4_Ac"class="ml-2 my-5">
+          <h4>Edifício Martinelli</h4>
+          <p class="font-italic">R. São Bento, 405<br>Centro, São Paulo - SP<br>01011-100</p>
+          <p class="fixed_desc_4">O Edifício Martinelli é um prédio localizado no Centro do município de São Paulo, Brasil. Situa-se no triângulo formado pela Rua São Bento, avenida São João e Rua Líbero Badaró, no centro da capital paulista. Devido sua altura, o local pode ser considerado um mirante, onde em suas redondezas, é possível observar pontos turísticos de São Paulo, com por exemplo o Vale do Anhangabaú e a Catedral da Sé.<br>Foi o segundo arranha-céu do Brasil e da América Latina, tendo sido ultrapassado pelo Edifício Joseph Gire, ou Edifício A Noite, no Rio de Janeiro, que apesar de ter iniciado sua construção apenas em 1927, foi inaugurado apenas dois anos depois, em 1929.</p>
+          <img src="assets/rota/Martinelli.jpg" alt="Edifício Martinelli" class="shadowed rounded img-fluid w-100">
+        </div>
+    </div>
 
   </div>
 
+</div>
+
+<div id="config" class="page">
+    <div class="container-fluid bgR2 mt-0 mb-3 p-0  pb-1 cW">
+        <img class="img-fluid" src="assets/icon.png" alt="Ícone Contrafluxo" class="img-fluid w-100">
+      <p class="text-center pt-4">Configurações</div>
 
 
+      <div class="container" class="text-center col-10">
+        <div class="form-check m-auto">
+          <h4 class="text-center">Receber recomendações de restaurantes próximos às rotas:</h4>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+              Sempre
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+              De vez em quando
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+              Desligado
+            </label>
+          </div>
+   
+          <div class="form-group">
+            <h4 class="text-center">Idioma:</h4>
+              <select id="disabledSelect" class="form-control" disabled>
+                <option>Português</option>
+              </select>
+            </div>
+
+            <button type="button" class="mt-5 btn btn-light btn-lg btn-block" onclick="gotoHome2()">Salvar</button>
+          </div>
 
 </div>
+
 
 
 </div>

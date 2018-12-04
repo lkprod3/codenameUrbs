@@ -39,11 +39,8 @@ $(document).ready(function () {
 function menutoggle() {
   if ( $("#episodios").is(":visible")) {
     $(".page").hide("slide", { direction: "down" }, 200);
-  $("#episodios").hide("slide", { direction: "down" }, 200);
-  $("#sobre").hide("slide", { direction: "down" }, 200);
   }
   if ( $("#noticias").is(":visible")) {
-    $(".page").hide("slide", { direction: "down" }, 200);
     $("#noticias").hide("slide", { direction: "down" }, 200);
   }
   if ($("#menu").is(":hidden")) {
@@ -77,6 +74,16 @@ function menutoggle() {
     $('#menu').hide();
     $(".page").hide();
     $("#rota_01").show("slide", { direction: "left" }, 200);
+  }
+  function gotoSettings() {
+    $('#menu').hide();
+    $(".page").hide();
+    $("#config").show("slide", { direction: "down" }, 200);
+  }
+
+  function gotoHome2() {
+    $('#config').hide("slide", {direction:"up"}, 1000);
+    $("#noticias").show("slide", { direction: "up" }, 1200);
   }
 
   function epGoto_1() {
@@ -132,8 +139,8 @@ function cardClick_2() {
 };
 
 function cardClick_3() {
-  $("#noticias").hide("slide", { direction: "right" }, 200);
-  $("#rotas").show("slide", { direction: "left" }, 200);
+  $("#noticias").hide("slide", { direction: "up" }, 200);
+  $("#rota_01").show("slide", { direction: "up" }, 200);
 }
 
 // This is the menu button, animated
@@ -165,7 +172,12 @@ $(function json_eps() {
   });
 });
 
+function rota_Arq() {
+  $(".page").hide("slide", { direction: "down" }, 200);
+  $("#rota_01").hide("slide", { direction: "down" }, 200);
+  $("#rota_01_Ativa").show("slide", {direction: "up"}, 200);
 
+}
 
 
 
@@ -208,8 +220,6 @@ if ( $(window).width() > 70) {
     } else {
       $(".toggle_desc_1").show("slide", { direction: "up" }, 200);
       $("#ed_1").css("color", "white");
-      var edificios = [];
-      edificios.push("1");
     }
   }
   function ed2_click() {

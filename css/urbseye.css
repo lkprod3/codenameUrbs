@@ -39,6 +39,12 @@ html {
     color:white;
 }
 
+.shadow {
+    box-shadow:  0px 4px 10px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 4px 10px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 4px 10px 3px rgba(0,0,0,0.6);
+}
+
 /* Specific classes */
 .logo_cf {
    position: absolute;
@@ -103,6 +109,19 @@ html {
     color:white;
 }
 #ed_6 {
+    color:white;
+}
+
+#ed_1_Ac {
+    color:white;
+}
+#ed_2_Ac {
+    color:white;
+}
+#ed_3_Ac {
+    color:white;
+}
+#ed_4_Ac {
     color:white;
 }
 
