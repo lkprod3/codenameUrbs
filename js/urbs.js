@@ -38,17 +38,20 @@ $(document).ready(function () {
 
 function menutoggle() {
   if ( $("#episodios").is(":visible")) {
+    $(".page").hide("slide", { direction: "down" }, 200);
   $("#episodios").hide("slide", { direction: "down" }, 200);
   $("#sobre").hide("slide", { direction: "down" }, 200);
-  $("#rota_01").hide("slide", { direction: "down" }, 200);
   }
   if ( $("#noticias").is(":visible")) {
+    $(".page").hide("slide", { direction: "down" }, 200);
     $("#noticias").hide("slide", { direction: "down" }, 200);
   }
   if ($("#menu").is(":hidden")) {
+    $(".page").hide("slide", { direction: "down" }, 200);
     $('#menu').show("slide", { direction: "up" }, 320);
   }
   else if ($("#menu").is(":visible")) {
+    $(".page").hide("slide", { direction: "down" }, 200);
     $('#menu').hide("slide", { direction: "up" }, 200);
     $("#noticias").show("slide", { direction: "down" }, 320);
   }
@@ -196,7 +199,7 @@ if ( $(window).width() > 70) {
   }
   });
 
-  var edificios = [0];
+  var edificios = [];
 
   function ed1_click() {
     if ($(".toggle_desc_1").is(":visible")) {
@@ -205,7 +208,7 @@ if ( $(window).width() > 70) {
     } else {
       $(".toggle_desc_1").show("slide", { direction: "up" }, 200);
       $("#ed_1").css("color", "white");
-      var edificios = [0];
+      var edificios = [];
       edificios.push("1");
     }
   }
@@ -253,4 +256,13 @@ function ed6_click() {
       $(".toggle_desc_6").show("slide", { direction: "up" }, 200);
       $("#ed_6").css("color", "white");
     }
+      }
+
+      function etc () {
+        if ($(".toggle_desc_1").is(":hidden") && $(".toggle_desc_2").is(":hidden")  && $(".toggle_desc_3").is(":hidden")  && $(".toggle_desc_4").is(":hidden")  && $(".toggle_desc_5").is(":hidden")  && $(".toggle_desc_6").is(":hidden") ) {
+          $(".btn-block").addClass("disabled");
+        }
+        else {
+          $(".btn-block").removeClass("disabled");
+        }
       }

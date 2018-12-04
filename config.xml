@@ -4,9 +4,20 @@
     id          = "com.contrafluxo.app"
     versionCode = "10"
     version     = "1.0.0" >
+    <splash src="splash.png" />
 
   <icon src="icon.png" />
-    <splash src="splash.png" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+<preference name="MediaPlaybackRequiresUserAction" value="false" />   
+<allow-navigation href="*youtube*" />
+<allow-navigation href="*ytimg*" />
+<allow-navigation href="*youtube-nocookie*" />
+<access origin="https://*.youtube-nocookie.com" />
+<access origin="https://*.youtube.com" />
+<access origin="https://*.ytimg.com" />
+<access origin="https://*.gstatic.com" />
+<access origin="https://*.googlevideo.com" />
+<access origin="https://*.google.com" />
 <!-- versionCode is optional and Android only -->
 <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" />
 
